@@ -14,6 +14,18 @@ public class Word{
     public static String scrambleWord(String word)
     {
         /* part (a) */
+        public static String scrambleWord(String word)
+    {
+        /* part (a) */
+        for(int i = 0;i<s.length;i++){
+        string n = s.substring(i+1,i+2);
+            if(a.equals("A") & !b.equals("A")){
+            tmp += b+a;
+            i++;
+            }
+            else
+                tmp += a;
+        }
     }
     /** Modifies wordList by replacing each word with its scrambled
      *  version, removing any words that are unchanged as a result of scrambling.
